@@ -1,0 +1,110 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url(./images/triangle_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+	margin: 0;
+}
+
+.content{
+	max-width: 800px;
+	min-height: 200px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	margin: auto;
+	text-align: center;
+}
+
+.content-index-choices{
+	font-size: 1rem;
+	/*border: 1px solid red;*/
+	margin-top: 10rem;
+}
+
+.flexContainer{
+	display: flex;
+
+}
+
+.flexContainer > div {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	padding-top: 20px;
+	border: 1px solid green;
+	text-align: center;
+	background-color: #A9A9A9;
+	color: white;
+
+}
+
+.footer{
+	max-width: 500px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 500px;
+	height: 40px;
+	/*border: 1px solid yellow;*/
+	text-align: center;
+}
+
+.footer > span{
+	color: black;
+	max-width: 100px;
+	width: 100%;
+	font-size: 1.2rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 1px solid orange;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+.back{
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width: 100px;
+	margin: 10rem auto 3rem;
+	text-align: center;
+}
+
+.back a:hover{
+	text-decoration: underline;
+}
+
+.back a p{
+	margin: 0;
+	padding: 5px;
+}
+
+.input_num{
+	padding: 1rem;
+	margin-right: 1rem;
+	background-color: ;
+}
+
+button{
+	display: block;
+	margin: 1rem auto;
+	padding: 1rem;
+
+}
+
+.output{
+	margin: 1rem auto;
+	border: 1px solid black;
+	width: 50%;
+	height: 50px;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
