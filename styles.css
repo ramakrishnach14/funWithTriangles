@@ -108,3 +108,36 @@ button{
 	padding: 1rem;
 	font-size: 1.5rem;
 }
+
+.radioDiv{
+	margin: 2rem 14rem;
+	text-align: left;
+}
+
+.radio{
+	/*display: block;*/
+}
+
+input[type="radio"]{
+	margin: 1rem 0;
+}
+
+.baseHeight{
+	display: none;
+}
+
+/*.info{
+	display: none;
+}*/
+
+/*.output{
+	display: none;
+}*/
+
+.threeSides{
+	display: none;
+}
+
+.sideAngle{
+	display: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Triangles and Fun-Area Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<div class="content">
+		<div class="back">
+			<a href="./index.html"><p>Go Back</p></a>
+		</div>
+		<h2>Calculate area</h2>
+		<h3>Select an option below as per the data you have for a triangle</h3>
+		<div class="radioDiv">
+			<input type="radio" class="radio"name="option" id="option1">
+			<label for="option1">If you have base and length of height</label>
+			<br>
+			<input type="radio" class="radio"name="option" id="option2">
+			<label for="option2">If you have length of 3 sides</label>
+			<br>
+			<input type="radio" class="radio"name="option" id="option3">
+			<label for="option3">If you have length of 2 sides and included angle</label>
+		</div>
+		<div class="baseHeight">
+			<h3>Area will be calculated here => Area = 1/2*base*height</h3>
+			<img src="./images/baseHeight.png" width="150px" height="150px" />
+			<br/><br/>
+			base= <input class="input_num" type="number" name="base" id="base" required>
+			height= <input class="input_num" type="number" name="height" id="height" required>
+			<button type="buttton" id="check1">Submit</button>
+			<div class="output">
+				Output will be shown here
+			</div>
+		</div>
+
+		<div class="threeSides">
+			<h3>Area will be calculated here => Area =  √<span style="border-top:1px solid black">s(s-a)(s-b)(s-c)</span></h3>
+			<img src="./images/triangle_hyp.png" width="150px" height="150px" />
+			<br/><br/>
+			a= <input class="input_num" type="number" name="sideA" id="sideA" required>
+			b= <input class="input_num" type="number" name="sideB" id="sideB" required>
+			c= <input class="input_num" type="number" name="sideC" id="sideC" required>
+			<button type="buttton" id="check2">Submit</button>
+			<div class="output">
+				Output will be shown here
+			</div>
+		</div>
+
+		<div class="sideAngle">
+			<h3>Area will be calculated here => Area = 1/2*b*c*sin(Ang)</h3>
+			<img src="./images/anglesides.png" width="150px" height="150px" />
+			<br/><br/>
+			b= <input class="input_num" type="number" name="sideA" id="sideOne" required>
+			c= <input class="input_num" type="number" name="sideB" id="sideTwo" required>
+			Ang= <input class="input_num" type="number" name="sideC" id="sideAng" required>
+			<button type="buttton" id="check3">Submit</button>
+			<div class="output">
+				Output will be shown here
+			</div>
+		</div>
+
+		<!-- <div class="info">
+			<h3>Area will be calculated here => Area = 1/2*base*height</h3>
+		</div> -->
+
+		<!-- <div class="output">
+			Output will be shown here
+		</div> -->
+
+		<!-- <div class="footer">
+			<span><a href="https://twitter.com/ramakrishnach14">Twitter</a></span>
+			<span><a href="https://github.com/ramakrishnach14">GitHub</a></span>
+			<span><a href="https://ramakrishnaportfolio.netlify.app/">Portfolio</a></span>
+		</div> -->
+		<!-- <div class="inputdiv">
+			<input class="input_num" type="number" name="side1" id="side1" required>
+			<input class="input_num" type="number" name="side2" id="side2" required>
+			<input class="input_num" type="number" name="angle3" id="angle3" required>
+			<button type="buttton" id="check">Submit</button>
+
+		</div>
+		<div>
+			<h3>Hypotenuse will be calculated here- C=√<span style="border-top: 2px solid black;padding-top: 0.1rem;">a<sup>2</sup>+b<sup>2</sup></span></h3>
+		</div>
+		<img src="./images/triangle_hyp.png" width="200px" height="200px" />
+		<div class="output">
+			Output will be shown here
+		</div>
+		<div class="footer">
+			<span><a href="https://twitter.com/ramakrishnach14">Twitter</a></span>
+			<span><a href="https://github.com/ramakrishnach14">GitHub</a></span>
+			<span><a href="https://ramakrishnaportfolio.netlify.app/">Portfolio</a></span>
+		</div> -->
+	</div>
+	<script type="text/javascript" src="./triangleArea.js"></script>
+</body>
+</html>
