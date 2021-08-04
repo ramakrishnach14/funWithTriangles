@@ -20,6 +20,9 @@ body{
 	/*border: 1px solid black;*/
 	margin: auto;
 	text-align: center;
+	position: relative;
+	left: auto;
+	right: auto;
 }
 
 .content-index-choices{
@@ -48,9 +51,12 @@ body{
 .footer{
 	max-width: 500px;
 	width: 100%;
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+	/*bottom: 0;
+	left: 500px;*/
 	left: 500px;
+	bottom: -250px;
+	/*right: auto;*/
 	height: 40px;
 	/*border: 1px solid yellow;*/
 	text-align: center;
@@ -140,4 +146,28 @@ input[type="radio"]{
 
 .sideAngle{
 	display: none;
+}
+
+.questionDiv{
+	background-color: #909090;
+	color: white;
+	margin-top: 2rem;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.questionDiv > label{
+	display: block;
+	padding:1rem 0 0 0.5rem ;
+
+}
+
+.questionDiv > input{
+	margin: 1rem 1rem 1rem 3rem;
+}
+
+input[type="submit"]{
+	display: block;
+	margin: 1rem auto;
+	padding: 1rem;
 }
